@@ -13,6 +13,12 @@
     <version>3.3.0</version>
   </parent>
   <name>petclinic</name>
+  
+  <scm>
+  <connection>scm:git:ssh://git@github.com:sebafudi/spring-petclinic.git</connection>
+  <developerConnection>scm:git:ssh://git@github.com:sebafudi/spring-petclinic.git</developerConnection>
+  <url>https://github.com/sebafudi/spring-petclinic</url>
+</scm>
 
   <properties>
 
