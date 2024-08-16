@@ -14,6 +14,21 @@
   </parent>
   <name>petclinic</name>
 
+  <scm>
+  <connection>scm:git:git@github.com:sebafudi/spring-petclinic.git</connection>
+  <developerConnection>scm:git:git@github.com:sebafudi/spring-petclinic.git</developerConnection>
+  <url>https://github.com/sebafudi/spring-petclinic</url>
+  <tag>HEAD</tag>
+</scm>
+
+<distributionManagement>
+    <repository>
+        <id>github</id>
+        <url>https://maven.pkg.github.com/sebafudi/spring-petclinic</url>
+    </repository>
+</distributionManagement>
+
+
   <properties>
 
     <!-- Generic properties -->
